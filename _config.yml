@@ -18,7 +18,8 @@ excerpt_separator: <!--more-->
 
 disqus: protik77
 
-google_analytics_ua: G-5RVR9Q0HMS
+# google_analytics_ua: G-5RVR9Q0HMS
+google_analytics_g: G-3JT3JCVFZS
 
 #paginate: 5
 
