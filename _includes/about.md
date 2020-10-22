@@ -1,1 +1,9 @@
-My name is Protik and I do stuff.
+I am Protik Das. I am working in HPC Infrastructure team of ebeam division in KLA corporation. As part of my job we design air-gapped HPC systems for deep learning applications, the keyword being "air-gapped". We take inspirations from tools designed for cloud systems. Often use them verbatim. Using them in an air-gapped systems has some interesting challenges. I plan to write about them here.
+
+I did my PhD in Electrical Engineering from University of California, Riverside under the supervision of Dr. [Roger Lake](https://intra.ece.ucr.edu/~rlake/). My research was on theoretical material science which was funded by semiconductor industry. I looked at a new generation of layered materials, more commonly known as 2D materials as a potential class of materials for semiconductor industry. I interned at Army Research Laboratory where I formalized a tool I wrote to streamline density functional theory calculations. I also interned at [Exabyte](https://exabyte.io/) where I did bandstructure calculation on 1000 (well almost) using cloud in a relatively short period of time.
+
+In my leisure I love to watch TV. In reality I am tinkering with the trove of Raspberry Pi's that I have while something is playing on screen. Apart from that I try to test my newly learned storage knowledge in a Synology NAS that I have.
+
+I hail from Bangladesh and did my undergraduate in Applied Physics, Electronics and Communication Engineering from University of Dhaka. I know, it's long. I get that a lot.
+
+This website is built using Jekyll and the skeleton is copied from website of [Nick Craver](https://nickcraver.com/), [Software Imagineering](https://github.com/NickCraver/nickcraver.github.com). If you are into optimizing things, I got a treat for you: [Optimization Considerations: Measure at the Browser](https://nickcraver.com/blog/2015/03/24/optimization-considerations/). This is a fascinating read about how Nick optimized his website.
