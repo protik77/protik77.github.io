@@ -5,7 +5,7 @@ title:  "Mindset of designing an air-gapped systems"
 date:   2020-10-22
 ---
 
-> This post is an work in progress where I am trying to write down the mindset that is needed to design an air-gapped HPC system.
+> This post is a work in progress where I am trying to write down the mindset that is needed to design an air-gapped HPC system.
 
 We are so used to everything connected to internet that, the limitations of an air-gapped system might seem alien at first. 
 
