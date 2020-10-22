@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Protik Das
-title:  "Binding Redirects"
+title:  "Test title"
 date:   2020-01-01
 ---
 
