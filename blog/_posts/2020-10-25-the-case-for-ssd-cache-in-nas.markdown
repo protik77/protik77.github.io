@@ -5,7 +5,7 @@ title:  "The case for SSD cache in a NAS"
 date:   2021-07-24
 ---
 
-> I started writing this post on 25 September 2020. When I finished the post on July 2021, DSM 7 came out. Synology forked flashcache which is a deprecated cache library from Facebook. Apparently Synology improved the caching mechanism quite a bit. So other than the basics, the timing data may be a bit outdated.
+> I started writing this post on 25 September 2020. When I finished the post on July 2021, DSM 7 came out. Synology forked flashcache which is a deprecated cache library from Facebook. Apparently Synology improved the caching mechanism quite a bit. So the basics might be fine, but the timing data may be a bit outdated.
 
 I recently upgraded my home NAS to DS 920+ from a DS 718+. The newer versions comes with 2 M.2 NVMe slots. They are meant to be used as an SSD cache. This year Synology have been including more of these slots to be used for SSD cache. I have nothing but good things to say about Synology devices. So I have been thinking about this from a system design perspective. 
 
