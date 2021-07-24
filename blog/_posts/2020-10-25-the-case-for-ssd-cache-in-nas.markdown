@@ -17,6 +17,6 @@ First the elephant in the roam. It have been pointed out with scary detail why t
 
 All of this is a valid concern. But this only happens if over-provisioning needs to happen. If the data needed for read cache is way smaller than the SSD, the read cache works fine. After I started using the cache, largest I have seen the cache size is 40% of the cache.
 
-On the positive note, the cache improves random reads quite a bit. I ran some tests. For a cold load a web app takes about 2 seconds. But after the small files are on a cache, the same app takes about 0.02s. So when the cache need is smaller than the cache SSD, the use of SSD cache is not that bad.
+On the positive note, the cache improves random reads quite a bit. I ran some tests. For a cold load a web app takes about 2 seconds. But after the small files are on a cache, the same app takes about 0.02s. So when the cache need is smaller than the cache SSD size, the use of SSD cache is not that bad.
 
 Note: I started writing this post on 25 September 2020. When I finished the post on July 2021, DSM 7 came out. Synology forked flashcache which is a deprecated cache library from Facebook. Apparently Synology improved the caching mechanism quite a bit. So other than the basics, the timing data may be a bit outdated.
