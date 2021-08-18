@@ -3,7 +3,7 @@ title: A home, and a few pages.
 email: protik77@gmail.com
 description: > #
 url: "protikdas.com"
-twitter_username: protikdas
+# twitter_username: protikdas
 repository: protik77/protik77.github.io
 github_username:  protik77
 
@@ -19,7 +19,7 @@ excerpt_separator: <!--more-->
 disqus: protik77
 
 # google_analytics_ua: G-5RVR9Q0HMS
-google_analytics_g: G-3JT3JCVFZS
+# google_analytics_g: G-3JT3JCVFZS
 
 #paginate: 5
 
