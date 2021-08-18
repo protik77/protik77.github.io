@@ -6,6 +6,7 @@ url: "protikdas.com"
 # twitter_username: protikdas
 repository: protik77/protik77.github.io
 github_username:  protik77
+linkedin_username:  protik-das
 
 permalink: /:categories/:year/:month/:day/:title/
 contenturl: "/blog/content/"
