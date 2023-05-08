@@ -1,7 +1,7 @@
 
 I am Protik Das. 
 I am working as a Systems Development Engineer (SysDE) at Amazon Web Services (AWS). 
-Our team owns OEM drives within the AWS infrastructure. 
+Our team owns OEM drives across the AWS infrastructure. 
 Yes, all of them.
 
 Before AWS I had a short stint at [SambaNova](http://sambanova.ai). 
