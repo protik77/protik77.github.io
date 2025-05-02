@@ -1,21 +1,24 @@
 
 I am Protik Das. 
-I am working as a Systems Development Engineer (SysDE) at Amazon Web Services (AWS). 
-Our team owns OEM drives across the AWS infrastructure. 
-Yes, all of them.
-
-Before AWS I had a short stint at [SambaNova](http://sambanova.ai). 
-There I worked on improving the automation around the manufacturing process. 
-Before SambaNova I worked as part of the HPC Infrastructure team of ebeam division 
-at KLA corporation. 
-There I designed air-gapped HPC systems for deep learning applications, 
+I am working as Senior HPC Solutions Engineer at KLA Corporation. 
+Our team designs air-gapped HPC systems for deep learning applications, 
 the keyword being "air-gapped". 
-We took inspirations from tools and technologies designed for cloud systems a lot. 
-Often used them as is. 
-Using them in an air-gapped systems had some interesting challenges. 
-At KLA I built custom Linux OS images, wrote infrastructure automation code, 
-designed hardware systems, worked on troubleshooting of existing systems, 
-supported customer escalations, and more.
+
+Before rejoining KLA I worked at Amazon Web Services (AWS) as Systems Development Engineer (SysDE)
+and at [SambaNova](https://sambanova.ai) as Senior Systems Engineer.
+At AWS my team owned all OEM drives across the AWS infrastructure.
+At SambaNova I worked on improving the automation around the manufacturing process
+of the [DataScale system](https://sambanova.ai/products/datascale). 
+
+At KLA we design air-gapped HPC systems for deep learning applications, 
+the keyword being "air-gapped". 
+We take inspirations from tools and technologies designed for cloud systems a lot. 
+Often use them as is.
+Using tools designed for cloud systems on an air-gapped systems have some unique challenges. 
+At KLA I build custom Linux OS golden images, 
+write infrastructure automation code, 
+design hardware systems, work on troubleshooting of existing systems, 
+support customer escalations, and more.
 
 I did my PhD in Electrical Engineering from University of California, 
 Riverside under the supervision of Dr. [Roger Lake](https://intra.ece.ucr.edu/~rlake/). 
