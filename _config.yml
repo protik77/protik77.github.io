@@ -2,7 +2,7 @@
 title: A home, and a few pages.
 email: protik77@gmail.com
 description: > #
-url: "protikdas.com"
+url: "https://protikdas.com"
 # twitter_username: protikdas
 repository: protik77/protik77.github.io
 github_username:  protik77
@@ -29,4 +29,8 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - Readme.md
+  - CNAME
+  - wrangler.toml
+  - .ruby-version
   - vendor

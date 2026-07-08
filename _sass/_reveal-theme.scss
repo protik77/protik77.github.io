@@ -1,3 +1,4 @@
+@use "sass:color";
 // Base theme template for reveal.js
 
 /*********************************************
@@ -243,7 +244,7 @@ body {
 
 .reveal .roll span:after {
 	color: #fff;
-	background: darken( $linkColor, 15% );
+	background: color.adjust( $linkColor, $lightness: -15% );
 }
 
 

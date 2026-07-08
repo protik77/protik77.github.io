@@ -1,3 +1,5 @@
+@use "sass:color";
+@use "sass:math";
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -63,7 +65,7 @@ a {
     transition: 100ms linear 0s;
 
     &:visited {
-        color: darken($brand-color, 10%);
+        color: color.adjust($brand-color, $lightness: -10%);
     }
 
     &:hover {
@@ -71,7 +73,7 @@ a {
     }
 
     &.button {
-        background-color: darken($brand-color, 10%);
+        background-color: color.adjust($brand-color, $lightness: -10%);
         border-radius: 5px;
         color: $background-color;
         padding: 2px 4px;
@@ -79,7 +81,7 @@ a {
         text-align: center;
 
         &:hover {
-            color: darken($background-color, 100%);;
+            color: color.scale($background-color, $lightness: -100%);
             background-color: $brand-color;
         }
     }
@@ -153,8 +155,8 @@ table.comparison {
     padding-left: $spacing-unit;
 
     @include media-query($on-small) {
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        padding-right: math.div($spacing-unit, 2);
+        padding-left: math.div($spacing-unit, 2);
     }
 }
 

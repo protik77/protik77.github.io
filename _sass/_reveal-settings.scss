@@ -1,3 +1,4 @@
+@use "sass:color";
 // Base settings for all themes that can optionally be
 // overridden by the super-theme
 
@@ -30,7 +31,7 @@ $heading4Size: 1.00em;
 
 // Links and actions
 $linkColor: #13DAEC;
-$linkColorHover: lighten( $linkColor, 20% );
+$linkColorHover: color.adjust( $linkColor, $lightness: 20% );
 
 // Text selection
 $selectionBackgroundColor: #FF5E99;

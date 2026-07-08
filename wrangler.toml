@@ -1,0 +1,15 @@
+# Cloudflare Pages configuration.
+# This file is the source of truth for the Pages project once it is deployed
+# via `wrangler pages deploy` or via the Cloudflare Git integration.
+#
+# Build settings that Cloudflare does not store in this file must be set in the
+# Cloudflare dashboard (or via the Git integration):
+#   - Build command:    bundle exec jekyll build
+#   - Build output dir: _site  (also declared below)
+#   - Environment var:  RUBY_VERSION = 3.4.4
+#
+# Static-only site: no Pages Functions, no bindings.
+
+name = "protikdas-com"
+pages_build_output_dir = "_site"
+compatibility_date = "2026-07-07"
