@@ -3,6 +3,7 @@ layout: null
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+@use "sass:color";
 
 $base-font-family:      Helvetica, Arial, sans-serif;
 $base-font-size:        16px;
@@ -23,9 +24,9 @@ $column-background-color: rgba(34, 35, 38, 0.8);
 $brand-color:           #49afef;
 
 $grey-color:            #828282;
-$grey-color-light:      lighten($grey-color, 40%);
-$grey-color-med-light:  lighten($grey-color, 10%);
-$grey-color-dark:       darken($grey-color, 25%);
+$grey-color-light:      color.adjust($grey-color, $lightness: 40%);
+$grey-color-med-light:  color.adjust($grey-color, $lightness: 10%);
+$grey-color-dark:       color.adjust($grey-color, $lightness: -25%);
 
 $svg-icon-color:        #ffffff;
 $border-color:          #666;

@@ -6,6 +6,7 @@ layout: null
  *
  * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
  */
+@use "sass:color";
 
 // Default mixins and settings -----------------
 @import "reveal", 
@@ -28,8 +29,8 @@ $headingLetterSpacing: normal;
 $headingTextTransform: uppercase;
 $headingFontWeight: 600;
 $linkColor: #42affa;
-$linkColorHover: lighten( $linkColor, 15% );
-$selectionBackgroundColor: lighten( $linkColor, 25% );
+$linkColorHover: color.adjust( $linkColor, $lightness: 15% );
+$selectionBackgroundColor: color.adjust( $linkColor, $lightness: 25% );
 
 $heading1Size: 2.5em;
 $heading2Size: 1.6em;
